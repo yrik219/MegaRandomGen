@@ -9,7 +9,4 @@ build:
   additionalCommands: npm run build
 run:
   scriptName: main.js
-  command: npm run startp
   persistenceMount: /data
-  containerPort: 4173
-  servicePort: 80
