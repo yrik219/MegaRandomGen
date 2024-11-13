@@ -8,5 +8,4 @@ build:
     "*": /
   additionalCommands: npm run build
 run:
-  scriptName: main.js
   persistenceMount: /data
