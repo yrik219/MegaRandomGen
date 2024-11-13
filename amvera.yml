@@ -5,11 +5,11 @@ meta:
     name: npm
     version: 22
 build:
-  skip: false
   artifacts:
     '*': /
+  additionalCommands: npm run build
 run:
   scriptName: main.js
-  command: npm run start
+  command: npm run startp
   persistenceMount: /data
   containerPort: 80
