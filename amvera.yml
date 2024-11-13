@@ -11,4 +11,5 @@ run:
   scriptName: main.js
   command: npm run startp
   persistenceMount: /data
-  containerPort: 80
+  containerPort: 4173
+  servicePort: 80
